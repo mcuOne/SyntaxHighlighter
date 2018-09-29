@@ -1,4 +1,4 @@
-﻿Public Class Main
+﻿Public Class TextBoxHighlighter
     Private Sub DrawRichTextBoxLineNumbers(ByRef g As Graphics)
         'calculate font heigth as the difference in Y coordinate between line 2 and line 1
         'note that the RichTextBox text must have at least two lines. So the initial Text property of the RichTextBox should not be an empty string. It could be something like vbcrlf & vbcrlf & vbcrlf 

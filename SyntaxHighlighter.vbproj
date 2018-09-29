@@ -76,11 +76,11 @@
     <Compile Include="SyntaxHighlighter.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Main.vb">
+    <Compile Include="TextBoxHighlighter.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Main.Designer.vb">
-      <DependentUpon>Main.vb</DependentUpon>
+    <Compile Include="TextBoxHighlighter.Designer.vb">
+      <DependentUpon>TextBoxHighlighter.vb</DependentUpon>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
@@ -101,8 +101,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.vb</DependentUpon>
+    <EmbeddedResource Include="TextBoxHighlighter.resx">
+      <DependentUpon>TextBoxHighlighter.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

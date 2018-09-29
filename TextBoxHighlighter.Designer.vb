@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Main
+Partial Class TextBoxHighlighter
     Inherits System.Windows.Forms.UserControl
 
     'UserControl1 überschreibt den Löschvorgang, um die Komponentenliste zu bereinigen.
