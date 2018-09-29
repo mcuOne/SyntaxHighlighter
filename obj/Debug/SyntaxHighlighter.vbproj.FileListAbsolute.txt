@@ -1,0 +1,9 @@
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.Resources.resources
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.vbproj.GenerateResource.Cache
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.xml
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\bin\Debug\SyntaxHighlighter.dll
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\bin\Debug\SyntaxHighlighter.pdb
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\bin\Debug\SyntaxHighlighter.xml
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.dll
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.pdb
+C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.Main.resources
