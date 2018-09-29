@@ -41,31 +41,42 @@
         DrawRichTextBoxLineNumbers(e.Graphics)
     End Sub
 
+    Public Sub AddKeyword(ByVal key As String)
+        m_syntaxRichTextBox.Settings.Keywords.Add(key)
+    End Sub
+    Public Sub Comment(ByVal str As String)
+        m_syntaxRichTextBox.Settings.Comment = str
+    End Sub
 
-    Private Sub UserControl1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        m_syntaxRichTextBox.Settings.Keywords.Add("function")
-        m_syntaxRichTextBox.Settings.Keywords.Add("if")
-        m_syntaxRichTextBox.Settings.Keywords.Add("then")
-        m_syntaxRichTextBox.Settings.Keywords.Add("else")
-        m_syntaxRichTextBox.Settings.Keywords.Add("elseif")
-        m_syntaxRichTextBox.Settings.Keywords.Add("end")
-        'Test
-        m_syntaxRichTextBox.Settings.Comment = "--"
-        m_syntaxRichTextBox.Settings.KeywordColor = Color.FromArgb(86, 156, 214)
-        m_syntaxRichTextBox.Settings.CommentColor = Color.FromArgb(87, 166, 74)
-        m_syntaxRichTextBox.Settings.StringColor = Color.FromArgb(214, 157, 133)
-        m_syntaxRichTextBox.Settings.IntegerColor = Color.Red
+    Public Sub KeywordColor(ByVal col As Color)
+        m_syntaxRichTextBox.Settings.KeywordColor = col
+    End Sub
+    Public Sub CommentColor(ByVal col As Color)
+        m_syntaxRichTextBox.Settings.CommentColor = col
+    End Sub
+    Public Sub StringColor(ByVal col As Color)
+        m_syntaxRichTextBox.Settings.StringColor = col
+    End Sub
+    Public Sub IntegerColor(ByVal col As Color)
+        m_syntaxRichTextBox.Settings.IntegerColor = col
+    End Sub
+    Public Sub EnableStrings(ByVal bool As Boolean)
+        m_syntaxRichTextBox.Settings.EnableStrings = bool
+    End Sub
 
-        m_syntaxRichTextBox.Settings.EnableStrings = True
-        m_syntaxRichTextBox.Settings.EnableIntegers = False
+    Public Sub EnableIntegers(ByVal bool As Boolean)
+        m_syntaxRichTextBox.Settings.EnableIntegers = bool
+    End Sub
+    Public Sub CompileKeywords()
         m_syntaxRichTextBox.CompileKeywords()
         m_syntaxRichTextBox.Text = vbCrLf & vbCrLf & vbCrLf
         m_syntaxRichTextBox.SelectAll()
-
         m_syntaxRichTextBox.ScrollToCaret()
-
-
+    End Sub
+    Public Sub ProcessAllLines()
         m_syntaxRichTextBox.ProcessAllLines()
+    End Sub
+    Private Sub UserControl1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
 

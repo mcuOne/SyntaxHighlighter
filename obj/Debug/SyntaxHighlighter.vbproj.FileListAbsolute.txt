@@ -7,3 +7,13 @@ C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\Wind
 C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.dll
 C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.pdb
 C:\Users\abu_k\documents\visual studio 2015\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\SyntaxHighlighter.Main.resources
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.vbprojResolveAssemblyReference.cache
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.Resources.resources
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.Main.resources
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.vbproj.GenerateResource.Cache
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.dll
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.xml
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\obj\Debug\SyntaxHighlighter.pdb
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\bin\Debug\SyntaxHighlighter.dll
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\bin\Debug\SyntaxHighlighter.pdb
+C:\Users\abu_k\Documents\Visual Studio 2015\Projects\SyntaxHighlighter\SyntaxHighlighter\bin\Debug\SyntaxHighlighter.xml

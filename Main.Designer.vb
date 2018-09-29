@@ -40,22 +40,26 @@ Partial Class Main
         '
         'm_syntaxRichTextBox
         '
+        Me.m_syntaxRichTextBox.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.m_syntaxRichTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.m_syntaxRichTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.m_syntaxRichTextBox.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.m_syntaxRichTextBox.Location = New System.Drawing.Point(67, 2)
         Me.m_syntaxRichTextBox.Name = "m_syntaxRichTextBox"
         Me.m_syntaxRichTextBox.Size = New System.Drawing.Size(705, 545)
         Me.m_syntaxRichTextBox.TabIndex = 0
         Me.m_syntaxRichTextBox.Text = ""
         '
-        'UserControl1
+        'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.Controls.Add(Me.MyPictureBox)
         Me.Controls.Add(Me.m_syntaxRichTextBox)
-        Me.Name = "UserControl1"
+        Me.Name = "Main"
         Me.Size = New System.Drawing.Size(775, 547)
         CType(Me.MyPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
